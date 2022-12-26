@@ -28,9 +28,6 @@ try:
     browser = webdriver.Firefox()
     browser.get(link)
 
-
-
-
     new_el1 = browser.find_element(By.ID, 'num1')
     x = int(new_el1.text)
     new_el2 = browser.find_element(By.ID, 'num2')
@@ -44,9 +41,6 @@ try:
 
     push_submit = browser.find_element(By.TAG_NAME, 'button')
     push_submit.click()
-
-
-
 finally:
     time.sleep(30)
     browser.quit()
