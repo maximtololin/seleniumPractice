@@ -31,5 +31,4 @@ def startUp():
     time.sleep(10)
     print(browser.switch_to.alert.text)
     browser.quit()
-
 startUp()

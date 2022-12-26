@@ -6,6 +6,7 @@ def open_link_Firefox(link):
     browser.get(link)
     return browser
 
+
 # Функция для упрощения наъхождения и вставки значения элемента
 def handle_input(type, element, values):
     input_answer = browser.find_element(type, element)
