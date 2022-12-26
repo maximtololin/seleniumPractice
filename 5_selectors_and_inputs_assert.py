@@ -1,32 +1,19 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+from defGlobal import open_link_Firefox, handle_input, handle_click
+from config import link_5
 
 try:
-    link = "http://suninjuly.github.io/registration2.html"
-    browser = webdriver.Firefox()
-    browser.get(link)
+    browser = open_link_Firefox(link_5)
 
-    # Ваш код, который заполняет обязательные поля
-
-    input1 = browser.find_element(By.CLASS_NAME, "first")
-    print(input1)
-    input1.send_keys("Kek")
-
-    input2 = browser.find_element(By.CLASS_NAME, "second")
-    print(input2)
-    input2.send_keys("Kek2")
-
-    input3 = browser.find_element(By.CLASS_NAME, "third")
-    print(input3)
-    input3.send_keys("kek@kek.com")
-
-    input4 = browser.find_element(By.XPATH, "//input[@placeholder='Input your phone:']")
-
+    handle_input(By.CLASS_NAME, "first", "Kek")
+    handle_input(By.CLASS_NAME, "second", "Kek2")
+    handle_input(By.CLASS_NAME, "third", "kek@kek.com")
+    handle_input(By.XPATH, "//input[@placeholder='Input your phone']", "89999999999")
 
     # Отправляем заполненную форму
-    button = browser.find_element(By.CSS_SELECTOR, "button.btn")
-    button.click()
+    handle_click(By.CSS_SELECTOR, "button.btn")
 
     # Проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы

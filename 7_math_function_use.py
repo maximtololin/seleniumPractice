@@ -1,40 +1,24 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import math
+from defGlobal import open_link_Firefox, handle_click, handle_input, calc, handle_submit_result
+from config import link_7
 
+def handle_calc_result(value_type, value_element, input_type, input_element, attr):
+    value_element = browser.find_element(value_type, value_element).get_attribute(attr)
 
+    number_value_element = int(value_element)
+    result = calc(number_value_element)
+
+    handle_input(input_type, input_element, result)
 
 try:
-    link = "http://suninjuly.github.io/get_attribute.html"
-    browser = webdriver.Firefox()
-    browser.get(link)
+    browser = open_link_Firefox(link_7)
 
+    handle_calc_result(By.ID, 'treasure', By.ID, 'answer', 'valuex')
 
-    def calc(x):
-        return str(math.log(abs(12 * math.sin(int(x)))))
-
-
-    x_element = browser.find_element(By.ID, 'treasure')
-    x_element_check = x_element.get_attribute('valuex')
-    print(x_element_check)
-    x = x_element_check
-    y = calc(x)
-    print(y)
-
-    input1 = browser.find_element(By.ID, 'answer')
-    print(input1)
-    input1.send_keys(y)
-
-    activate_checkbox = browser.find_element(By.ID, 'robotCheckbox')
-    activate_checkbox.click()
-
-    activate_radiobutton = browser.find_element(By.ID, 'robotsRule')
-    activate_radiobutton.click()
-
-    push_submit = browser.find_element(By.CSS_SELECTOR, 'button.btn')
-    push_submit.click()
-
+    handle_click(By.ID, 'robotCheckbox')
+    handle_click(By.ID, 'robotsRule')
+    handle_click(By.CSS_SELECTOR, 'button.btn')
 
 finally:
     time.sleep(30)

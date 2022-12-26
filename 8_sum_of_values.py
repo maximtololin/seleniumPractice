@@ -1,8 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import math
 from selenium.webdriver.support.ui import Select
+from defGlobal import open_link_Firefox, handle_click
+from config import link_8
 
 # from selenium.webdriver.support.ui import Select
 # select = Select(browser.find_element(By.TAG_NAME, "select"))
@@ -19,28 +20,24 @@ from selenium.webdriver.support.ui import Select
 
 
 def sum(x, y):
-    print(x, y)
     return str(x + y)
 
 
 try:
-    link = "http://suninjuly.github.io/selects1.html"
-    browser = webdriver.Firefox()
-    browser.get(link)
+    browser = open_link_Firefox(link_8)
 
     new_el1 = browser.find_element(By.ID, 'num1')
-    x = int(new_el1.text)
+    first_number = int(new_el1.text)
     new_el2 = browser.find_element(By.ID, 'num2')
-    y = int(new_el2.text)
+    second_number = int(new_el2.text)
 
-    total_sum = sum(x, y)
-    print(sum(x, y))
+    total_sum = sum(first_number, second_number)
 
     select = Select(browser.find_element(By.TAG_NAME, "select"))
     select.select_by_value(total_sum)
 
-    push_submit = browser.find_element(By.TAG_NAME, 'button')
-    push_submit.click()
+    handle_click(By.TAG_NAME, 'button')
+
 finally:
     time.sleep(30)
     browser.quit()

@@ -1,40 +1,21 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import math
-
-
-link = "http://suninjuly.github.io/find_xpath_form"
+from defGlobal import open_link_Firefox, handle_input, handle_click
+from config import link_4
 
 try:
-    browser = webdriver.Firefox()
-    browser.get(link)
+    browser = open_link_Firefox(link_4)
 
+    handle_input(By.NAME, 'first_name', "Ivan")
+    handle_input(By.NAME, 'last_name', "Petrov")
+    handle_input(By.CLASS_NAME, 'city', "Erevan")
+    handle_input(By.ID, 'country', "Armenia")
 
-
-
-    input1 = browser.find_element(By.NAME, 'first_name')
-    print(input1)
-    input1.send_keys("Ivan")
-
-    input2 = browser.find_element(By.NAME, 'last_name')
-    print(input2)
-    input2.send_keys("Petrov")
-
-    input3 = browser.find_element(By.CLASS_NAME, 'city')
-    print(input3)
-    input3.send_keys("Erevan")
-
-    input4 = browser.find_element(By.ID, 'country')
-    print(input4)
-    input4.send_keys("Armenia")
-
-    button = browser.find_element(By.XPATH, '//button[text()="Submit"]')
-    button.click()
+    handle_click(By.XPATH, '//button[text()="Submit"]')
     time.sleep(10)
 
-    button = browser.find_element(by='css selector', value='button.btn')
-    button.click()
+    handle_click(By.CSS_SELECTOR, 'button.btn')
 
 finally:
     # успеваем скопировать код за 30 секунд

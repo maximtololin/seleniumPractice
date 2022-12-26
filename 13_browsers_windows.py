@@ -1,16 +1,10 @@
 import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-import math
 from defGlobal import open_link_Firefox, handle_submit_result, handle_click
-
-
-page_link = "http://suninjuly.github.io/redirect_accept.html"
-
-
+from config import link_13
 
 def startUp():
-    browser = open_link_Firefox(page_link)
+    browser = open_link_Firefox(link_13)
     handle_click(By.CSS_SELECTOR, "[type='submit']")
     # Выбираем второе окно браузера 0,1,2...
     new_window = browser.window_handles[1]

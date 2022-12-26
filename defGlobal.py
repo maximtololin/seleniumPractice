@@ -26,4 +26,3 @@ def handle_submit_result(value_type, value_element, input_type, input_element):
     result = calc(number_value_element)
 
     handle_input(input_type, input_element, result)
-
