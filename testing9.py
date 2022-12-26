@@ -1,3 +1,5 @@
+import time
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -12,4 +14,5 @@ try:
     button.click()
 
 finally:
+    time.sleep(30)
     browser.quit()
