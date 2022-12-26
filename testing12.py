@@ -2,14 +2,15 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import math
+from defGlobal import open_link_Firefox
+
+page_link = "http://suninjuly.github.io/alert_accept.html"
 
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
-
 try:
-    link = "http://suninjuly.github.io/alert_accept.html"
-    browser = webdriver.Firefox()
-    browser.get(link)
+
+    browser = open_link_Firefox(page_link)
     push_button = browser.find_element(By.CSS_SELECTOR, "[type='submit']")
     push_button.click()
     # Переключаемся на алерт
