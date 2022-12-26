@@ -14,7 +14,7 @@ try:
     email_name = browser.find_element(By.NAME, 'email')
     email_name.send_keys("cheburek@kek.com")
     # Переменная с директорией текущего файла, для добавления следующего
-    current_dir = os.path.abspath(os.path.dirname("testing11.py"))
+    current_dir = os.path.abspath(os.path.dirname("11_download_file.py"))
     # Указываем файл для загрузки
     file_name = "loading_sample.txt"
     # Получаем путь файла для загрузки
