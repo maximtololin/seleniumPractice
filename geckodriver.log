@@ -2797,3 +2797,4 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://s
 1672149095189	Marionette	INFO	Stopped listening on port 58067
 JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
