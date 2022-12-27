@@ -2798,3 +2798,43 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://s
 JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: uncaught exception: null
 JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672151589645	geckodriver	INFO	Listening on 127.0.0.1:58611
+1672151590160	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58612" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilevbIhrZ"
+1672151591089	Marionette	INFO	Marionette enabled
+1672151591312	Marionette	INFO	Listening on port 58619
+Read port: 58619
+WebDriver BiDi listening on ws://127.0.0.1:58612
+1672151591522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilevbIhrZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58612/devtools/browser/869a6b08-7668-45a9-ba24-242cf36f1cf8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://suninjuly.github.io."
+1672151605304	Marionette	INFO	Stopped listening on port 58619
+JavaScript error: , line 0: uncaught exception: null
+1672151890885	geckodriver	INFO	Listening on 127.0.0.1:58715
+1672151891404	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58716" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileeq2WJb"
+1672151892075	Marionette	INFO	Marionette enabled
+1672151892257	Marionette	INFO	Listening on port 58723
+Read port: 58723
+WebDriver BiDi listening on ws://127.0.0.1:58716
+1672151892460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileeq2WJb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58716/devtools/browser/7d062fe9-3f5b-40f5-a409-940af085fa56
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672151895442	Marionette	INFO	Stopped listening on port 58723
+1672151896075	geckodriver	INFO	Listening on 127.0.0.1:58750
+1672151896583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58751" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofiley7sHcC"
+1672151897121	Marionette	INFO	Marionette enabled
+1672151897158	Marionette	INFO	Listening on port 58759
+Read port: 58759
+WebDriver BiDi listening on ws://127.0.0.1:58751
+1672151897321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofiley7sHcC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58751/devtools/browser/cb4e75d7-b96a-467b-85f9-450c0a98c447
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672151900721	Marionette	INFO	Stopped listening on port 58759
