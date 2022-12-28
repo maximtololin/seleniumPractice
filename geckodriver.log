@@ -2838,3 +2838,424 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:58751/devtools/browser/cb4e75d7-b96a-467b-85f9-450c0a98c447
 JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
 1672151900721	Marionette	INFO	Stopped listening on port 58759
+1672152161227	geckodriver	INFO	Listening on 127.0.0.1:58829
+1672152161749	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58830" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileBI3YBI"
+1672152162326	Marionette	INFO	Marionette enabled
+1672152162370	Marionette	INFO	Listening on port 58837
+Read port: 58837
+WebDriver BiDi listening on ws://127.0.0.1:58830
+1672152162657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileBI3YBI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58830/devtools/browser/89891d95-2820-4bc9-ab6b-c52f4a64065d
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672152165241	Marionette	INFO	Stopped listening on port 58837
+1672152165814	geckodriver	INFO	Listening on 127.0.0.1:58865
+1672152166329	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58866" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofile5VX6Gd"
+1672152166851	Marionette	INFO	Marionette enabled
+1672152166887	Marionette	INFO	Listening on port 58873
+Read port: 58873
+WebDriver BiDi listening on ws://127.0.0.1:58866
+1672152167044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofile5VX6Gd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58866/devtools/browser/314b9ac8-8634-40cd-999a-aa3313aa157f
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672152169640	Marionette	INFO	Stopped listening on port 58873
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672212673629	geckodriver	INFO	Listening on 127.0.0.1:62522
+1672212674152	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62523" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileRh1EGl"
+1672212675187	Marionette	INFO	Marionette enabled
+1672212675333	Marionette	INFO	Listening on port 62530
+Read port: 62530
+WebDriver BiDi listening on ws://127.0.0.1:62523
+1672212675543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileRh1EGl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62523/devtools/browser/0fa4a099-2627-44d2-9038-72a061ee6e35
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672212679345	Marionette	INFO	Stopped listening on port 62530
+1672212679953	geckodriver	INFO	Listening on 127.0.0.1:62559
+1672212680461	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62560" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileqCKOw2"
+1672212680982	Marionette	INFO	Marionette enabled
+1672212681019	Marionette	INFO	Listening on port 62567
+Read port: 62567
+WebDriver BiDi listening on ws://127.0.0.1:62560
+1672212681181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileqCKOw2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62560/devtools/browser/9ebb6b89-a87c-45ad-b486-d8b7d92a4a25
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672212684084	Marionette	INFO	Stopped listening on port 62567
+1672212684675	geckodriver	INFO	Listening on 127.0.0.1:62598
+1672212685181	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62599" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilerUFbW5"
+1672212685723	Marionette	INFO	Marionette enabled
+1672212685760	Marionette	INFO	Listening on port 62606
+Read port: 62606
+WebDriver BiDi listening on ws://127.0.0.1:62599
+1672212685963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilerUFbW5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62599/devtools/browser/c96e67a7-5dab-48a4-a741-c518e3b13709
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672212688640	Marionette	INFO	Stopped listening on port 62606
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672213163115	geckodriver	INFO	Listening on 127.0.0.1:62684
+1672213163637	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62685" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileGzOD5J"
+1672213164216	Marionette	INFO	Marionette enabled
+1672213164259	Marionette	INFO	Listening on port 62694
+Read port: 62694
+WebDriver BiDi listening on ws://127.0.0.1:62685
+1672213164586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileGzOD5J/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62685/devtools/browser/0eb6ddb8-cbe8-49ad-a5d8-58f5bbb7496d
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672213167369	geckodriver	INFO	Listening on 127.0.0.1:62724
+1672213167877	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62725" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileB2DQny"
+1672213168384	Marionette	INFO	Marionette enabled
+1672213168543	Marionette	INFO	Listening on port 62736
+Read port: 62736
+WebDriver BiDi listening on ws://127.0.0.1:62725
+1672213168662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileB2DQny/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62725/devtools/browser/dfc24da9-7406-4c54-b73d-d62fef9a11fa
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672214374180	Marionette	INFO	Stopped listening on port 62694
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672214376253	Marionette	INFO	Stopped listening on port 62736
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672216128258	geckodriver	INFO	Listening on 127.0.0.1:63234
+1672216128778	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63235" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilex7aKRC"
+1672216129717	Marionette	INFO	Marionette enabled
+1672216129955	Marionette	INFO	Listening on port 63242
+Read port: 63242
+WebDriver BiDi listening on ws://127.0.0.1:63235
+1672216130161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofilex7aKRC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63235/devtools/browser/f741d4c2-f4ee-4ccf-aad6-fe767ae98d36
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672216133476	geckodriver	INFO	Listening on 127.0.0.1:63268
+1672216133981	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63269" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofiledzKQXm"
+1672216134481	Marionette	INFO	Marionette enabled
+1672216134514	Marionette	INFO	Listening on port 63283
+Read port: 63283
+WebDriver BiDi listening on ws://127.0.0.1:63269
+1672216134674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofiledzKQXm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63269/devtools/browser/0b9ea205-8725-4be6-b40b-aa7848c30a85
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672216328067	Marionette	INFO	Stopped listening on port 63242
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672216330143	Marionette	INFO	Stopped listening on port 63283
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672221029978	geckodriver	INFO	Listening on 127.0.0.1:63950
+1672221030497	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63951" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofile0RxukL"
+1672221031334	Marionette	INFO	Marionette enabled
+1672221031555	Marionette	INFO	Listening on port 63958
+Read port: 63958
+WebDriver BiDi listening on ws://127.0.0.1:63951
+1672221031730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofile0RxukL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63951/devtools/browser/012b3215-6feb-4aff-97aa-8ba8f8f6c3eb
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672221034855	Marionette	INFO	Stopped listening on port 63958
+1672221035449	geckodriver	INFO	Listening on 127.0.0.1:63984
+1672221035961	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63985" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileKwaKlO"
+1672221036478	Marionette	INFO	Marionette enabled
+1672221036641	Marionette	INFO	Listening on port 63993
+Read port: 63993
+WebDriver BiDi listening on ws://127.0.0.1:63985
+1672221036759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileKwaKlO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63985/devtools/browser/75bea847-58df-41f3-b575-88cb5e5c3af8
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672221039195	Marionette	INFO	Stopped listening on port 63993
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672222350747	geckodriver	INFO	Listening on 127.0.0.1:64213
+1672222351266	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64214" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileVuFIsf"
+1672222351820	Marionette	INFO	Marionette enabled
+1672222351857	Marionette	INFO	Listening on port 64221
+Read port: 64221
+WebDriver BiDi listening on ws://127.0.0.1:64214
+1672222352011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/f5/bfbpxw1n6756f38ccd_425qm0000gp/T/rust_mozprofileVuFIsf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64214/devtools/browser/079788fa-9c67-4b76-aaad-bf32f5ed19c3
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1672222355467	Marionette	INFO	Stopped listening on port 64221
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1672240952408	Marionette	INFO	Stopped listening on port 50854
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
