@@ -12,7 +12,7 @@ try:
     handle_input(By.NAME, 'email', "cheburek@kek.com")
 
     # Переменная с директорией текущего файла, для добавления следующего
-    current_dir = os.path.abspath(os.path.dirname("11_download_file.py"))
+    current_dir = os.path.abspath(os.path.dirname("test_11_download_file.py"))
     # Указываем файл для загрузки
     file_name = "loading_sample.txt"
     # Получаем путь файла для загрузки
