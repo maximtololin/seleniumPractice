@@ -49,8 +49,8 @@ links = ["https://web.dev.slaver.vip/#/pages/dashboard",
          "https://web.dev.slaver.vip/#/pages/telegramWebApps/buyerRequest",
          "https://web.dev.slaver.vip/#/pages/7_botAnalytics", ]
 
-email = "r20-maksim@monowork.pro"
-password = "Cwajxy4RWQ!"
+email = ""
+password = ""
 login_link = "https://web.dev.slaver.vip/#/auth/login"
 
 
