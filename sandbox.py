@@ -2,42 +2,21 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import math
+from defGlobal import handle_click, open_link_Firefox
 
 
-link = "https://fake-shop.com/book1.html"
+link = "https://ok.ru/"
 
-try:
-    browser = webdriver.Firefox()
-    # подготовка для теста
-    # открываем страницу первого товара
-    # данный сайт не существует, этот код приведен только для примера
-    browser.get(link)
+def startUp():
+    browser = open_link_Firefox(link)
+    browser.implicitly_wait(5)
+    # time.sleep(10)
+    handle_click(By.CSS_SELECTOR, '.button-pro.__wide[data-l="t,sign_in"]')
+    print("Im found button")
+    # message = browser.find_element(By.ID, "verify_message")
+    #
+    # assert "successful" in message.text
 
-    # добавляем товар в корзину
-    add_button = browser.find_element(By.CSS_SELECTOR, ".add")
-    add_button.click()
-
-    # открываем страницу второго товара
-    browser.get("https://fake-shop.com/book2.html")
-
-    # добавляем товар в корзину
-    add_button = browser.find_element(By.CSS_SELECTOR, ".add")
-    add_button.click()
-
-    # тестовый сценарий
-    # открываем корзину
-    browser.get("https://fake-shop.com/basket.html")
-
-    # ищем все добавленные товары
-    goods = browser.find_elements(By.CSS_SELECTOR, ".good")
-
-    # проверяем, что количество товаров равно 2
-    assert len(goods) == 2
-
-finally:
-    # успеваем скопировать код за 30 секунд
-    time.sleep(30)
-    # закрываем браузер после всех манипуляций
     browser.quit()
 
-# не забываем оставить пустую строку в конце файла
+startUp()

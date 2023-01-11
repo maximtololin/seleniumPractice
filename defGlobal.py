@@ -1,6 +1,10 @@
+from os import getenv
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import math
+import pytest
+from os import getenv
 
 browser = webdriver.Firefox()
 def open_link_Firefox(link):
@@ -26,3 +30,7 @@ def handle_submit_result(value_type, value_element, input_type, input_element):
     result = calc(number_value_element)
 
     handle_input(input_type, input_element, result)
+
+
+
+
